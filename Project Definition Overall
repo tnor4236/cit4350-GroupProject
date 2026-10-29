@@ -1,0 +1,5 @@
+Project Definition
+  The database project that is defined in this repository will focus on college student health data. This project will disperse an anonymous survey to college 
+students that will collect data based on the answers to the various questions. It will also collect data from various fitness apps, such as the run keeper app,
+and from sleep tracking apps, such as the SleepCycle app, to augment the survey data. We will use this data to answer questions to help address the Good Health 
+and Well Being SDG. We will create queries using DDL to pull data from the database to form answers to these questions.
