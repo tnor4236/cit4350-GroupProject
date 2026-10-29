@@ -1,3 +1,4 @@
 Project Definition
   The database project that is defined in this respository will focus on college student health data. This project will disperse an anonymous survey to college 
-students that will collect data based on the answers to the various questions. It will also collect data from various fitness apps, such as 
+students that will collect data based on the answers to the various questions. It will also collect data from various fitness apps, such as the run keeper app, 
+and from sleep tracking apps, such as the SleepCycle app, to augment the survey data. 
