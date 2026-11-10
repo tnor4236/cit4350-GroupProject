@@ -34,4 +34,5 @@ and Well Being SDG. We will create queries using DDL to pull data from the datab
 
 Google Chat channel
 Our group has used google chat for communication throughout the semester
+
 Group Chat Name: CIT-4350-Group-Project-Chat
