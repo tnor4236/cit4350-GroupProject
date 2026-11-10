@@ -31,3 +31,7 @@ The database project that is defined in this repository will focus on college st
 students that will collect data based on the answers to the various questions. It will also collect data from various fitness apps, such as the run keeper app,
 and from sleep tracking apps, such as the SleepCycle app, to augment the survey data. We will use this data to answer questions to help address the Good Health 
 and Well Being SDG. We will create queries using DDL to pull data from the database to form answers to these questions.
+
+Google Chat channel
+Our group has used google chat for communication throughout the semester
+Group Chat Name: CIT-4350-Group-Project-Chat
