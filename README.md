@@ -32,7 +32,8 @@ students that will collect data based on the answers to the various questions. I
 and from sleep tracking apps, such as the SleepCycle app, to augment the survey data. We will use this data to answer questions to help address the Good Health 
 and Well Being SDG. We will create queries using DDL to pull data from the database to form answers to these questions.
 
-Google Chat channel
+Google Chat Channel
+
 Our group has used google chat for communication throughout the semester
 
 Group Chat Name: CIT-4350-Group-Project-Chat
