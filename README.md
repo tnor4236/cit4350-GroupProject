@@ -2,12 +2,14 @@
 Group Project for Database Programming class
 
 Topic Selection
+
 Our group chose SDG #3, Good Health and Well-Being because health is important for college students. 
 Between classes, assignments, and other responsibilities, students may have trouble finding time to exercise, get enough 
 sleep, and take care of themselves. These habits can affect their health and how they feel each day. Our project focuses on exercise, sleep, and 
 self-care to better understand how they relate to students overall well being.
 
 Project Definition Data
+
 Our group will use six tables to organize the information. The Student table will have basic student information and their overall well-being rating. 
 The Exercise Typess and Student Exercise Records tables will show what exercises students do, how often 
 they exercise, and how long each session lasts. The Self Care Types and Self Care Log 
