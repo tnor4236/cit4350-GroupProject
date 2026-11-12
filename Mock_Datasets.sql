@@ -1,6 +1,6 @@
 Mock Datasets
 Example (ID, Exercise Type(s), Exercise Minutes, Exercise days per week, Selfcare activity(s), Selfcare Frequency, Average Sleep Hours, Sleep period, Well 
-being rat$
+being rate
 Student 1 (1, 'Running, Weightlifting', 45, 4, 'Meditation, Reading', 'Daily', 7.5, '10:30 PM - 6:00 AM', 8)
 Student 2 (2, 'Yoga, Cycling', 60, 3, 'Journaling, Skincare Routine', '3 times a week', 8.0, '11:00 PM - 7:00 AM', 9)
 Student 3 (3, 'Swimming', 30, 2, 'Bubble Bath, Aromatherapy', 'Weekly', 6.5, '12:00 AM - 6:30 AM', 6)
