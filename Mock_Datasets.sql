@@ -14,7 +14,7 @@ Student 10 (10, 'Tennis, Rowing', 65, 3, 'Painting, Deep Breathing', 'Weekly', 8
 
 
 Sleep Data
-INSERT INTO Sleeplog (StudentID, DayType, DaysPerWeek, SleepHours) VALUES
+INSERT INTO SleepLog (StudentID, DayType, DaysPerWeek, SleepHours) VALUES
 ('01', 'School Night', 5, 6),
 ('01', 'Weekends', 2, 8),
 ('01', 'Exam Week', 7, 5),
@@ -56,10 +56,10 @@ INSERT INTO Sleeplog (StudentID, DayType, DaysPerWeek, SleepHours) VALUES
 ('10', 'Exam Week', 7, 6);
 
 SELECT *
-FROM Sleeplog
+FROM SleepLog
 ORDER BY StudentID, DaysPerWeek;
 
 SELECT DayType,
 ROUND(AVG(Sleep_Hours), 2) AS AverageSleep
-FROM Sleep
+FROM SleepLog
 GROUP BY DayType;
