@@ -36,8 +36,17 @@ and Well Being SDG. We will create queries using DDL to pull data from the datab
 Our group has used google chat for communication throughout the semester
 
 Group Chat Name: CIT-4350-Group-Project-Chat
+
 Link:[ Group Chat ](https://mail.google.com/mail/u/0/#chat/space/AAQAyapB2LU)
 
 ## MySQL Code Link
 
-[ MySQL Code ]()
+[ MySQL Code ](https://github.com/tnor4236/cit4350-GroupProject/blob/main/MySQL%20Code.sql)
+
+## ER Diagram Link
+
+[ ER Diagram ](https://github.com/tnor4236/cit4350-GroupProject/blob/main/ER%20Diagram.png)
+
+## Mock_Datasets Link
+
+[ Mock_Datasets ](https://github.com/tnor4236/cit4350-GroupProject/blob/main/Mock_Datasets.sql)
