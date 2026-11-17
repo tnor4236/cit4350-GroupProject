@@ -18,8 +18,12 @@ tables will keep track of self-care activities. The Sleep Log table will show ho
 during school nights, weekends, and exam periods. We are using separate tables so we can keep the information organized, connect 
 it to the correct students, and avoid repeating the same information.
 
-Our database will help us answer three questions: What types of exercise are most common among college students? 
-Do students who get more sleep report better overall well-being? What self-care activities are most common among students? 
+Our database will help us answer three questions: 
+
+1. What types of exercise are most common among college students?
+2. Do students who get more sleep report better overall well-being?
+3. What self-care activities are most common among students?
+   
 We will use SQL queries to compare the information and look for patterns.
 
 
