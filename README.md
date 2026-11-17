@@ -1,4 +1,3 @@
-# cit4350-GroupProject
 # Group Project for Database Programming Class
 
 ## Topic Selection
@@ -38,3 +37,7 @@ Our group has used google chat for communication throughout the semester
 
 Group Chat Name: CIT-4350-Group-Project-Chat
 Link:[ Group Chat ](https://mail.google.com/mail/u/0/#chat/space/AAQAyapB2LU)
+
+## MySQL Code Link
+
+[ MySQL Code ]()
