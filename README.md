@@ -1,6 +1,6 @@
 # Group Project for Database Programming Class
 
-## **Topic Selection**
+## Topic Selection
 
 
 Our group chose SDG #3, Good Health and Well-Being because health is important for college students. 
