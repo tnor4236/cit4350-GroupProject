@@ -12,7 +12,7 @@ self-care to better understand how they relate to students overall well being.
 
 
 Our group will use six tables to organize the information. The Student table will have basic student information and their overall well-being rating. 
-The Exercise Typess and Student Exercise Records tables will show what exercises students do, how often 
+The Exercise Types and Student Exercise Records tables will show what exercises students do, how often 
 they exercise, and how long each session lasts. The Self Care Types and Self Care Log 
 tables will keep track of self-care activities. The Sleep Log table will show how much sleep students get 
 during school nights, weekends, and exam periods. We are using separate tables so we can keep the information organized, connect 
