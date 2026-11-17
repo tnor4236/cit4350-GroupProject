@@ -21,9 +21,9 @@ USE `create_tables.sql` ;
 -- Table `create_tables.sql`.`Student`
 -- -----------------------------------------------------
 CREATE TABLE IF NOT EXISTS `create_tables.sql`.`Student` (
-  `StudentID` VARCHAR(10) NOT NULL,
-  `CollegeYear` VARCHAR(20) NULL,
-  `WellBeingRating` VARCHAR(20) NULL,
+  The number id` StudentID` VARCHAR(10) NOT NULL,
+  Year of collage `CollegeYear` VARCHAR(20) NULL,
+  The overall wellbeing for a person `WellBeingRating` VARCHAR(20) NULL,
   PRIMARY KEY (`StudentID`))
 ENGINE = InnoDB;
 
@@ -32,8 +32,8 @@ ENGINE = InnoDB;
 -- Table `create_tables.sql`.`ExerciseTypes`
 -- -----------------------------------------------------
 CREATE TABLE IF NOT EXISTS `create_tables.sql`.`ExerciseTypes` (
-  `ExerciseID` VARCHAR(10) NOT NULL,
-  `ExerciseName` VARCHAR(50) NULL,
+ exercise number id  `ExerciseID` VARCHAR(10) NOT NULL,
+  exercise name `ExerciseName` VARCHAR(50) NULL,
   PRIMARY KEY (`ExerciseID`))
 ENGINE = InnoDB;
 
@@ -42,10 +42,10 @@ ENGINE = InnoDB;
 -- Table `create_tables.sql`.`StudentExerciseRecords`
 -- -----------------------------------------------------
 CREATE TABLE IF NOT EXISTS `create_tables.sql`.`StudentExerciseRecords` (
-  `StudentID` VARCHAR(10) NOT NULL,
-  `ExerciseID` VARCHAR(10) NOT NULL,
-  `DaysPerWeek` INT NULL,
-  `MinutesPerSession` INT NULL,
+  student id number `StudentID` VARCHAR(10) NOT NULL,
+  exercise id number`ExerciseID` VARCHAR(10) NOT NULL,
+ days per week for student `DaysPerWeek` INT NULL,
+  min per session for exercise`MinutesPerSession` INT NULL,
   PRIMARY KEY (`StudentID`, `ExerciseID`),
   INDEX `fk_StudentExerciseRecords_ExerciseTypes_idx` (`ExerciseID` ASC),
   CONSTRAINT `fk_StudentExerciseRecords_Student`
@@ -75,9 +75,9 @@ ENGINE = InnoDB;
 -- Table `create_tables.sql`.`SelfCareLog`
 -- -----------------------------------------------------
 CREATE TABLE IF NOT EXISTS `create_tables.sql`.`SelfCareLog` (
-  `StudentID` VARCHAR(10) NOT NULL,
-  `SelfCareID` INT NOT NULL,
-  `Frequency` VARCHAR(45) NULL,
+student id number `StudentID` VARCHAR(10) NOT NULL,
+   stors a unique identifcation number assigned each self care activity`SelfCareID` INT NOT NULL,
+  records how frequentky the student partcipates in the self care activity `Frequency` VARCHAR(45) NULL,
   PRIMARY KEY (`StudentID`),
   CONSTRAINT `fk_SelfCareLog_Student`
     FOREIGN KEY (`StudentID`)
@@ -96,10 +96,10 @@ ENGINE = InnoDB;
 -- Table `create_tables.sql`.`SleepLog`
 -- -----------------------------------------------------
 CREATE TABLE IF NOT EXISTS `create_tables.sql`.`SleepLog` (
-  `SleepID` INT NOT NULL,
-  `StudentID` VARCHAR(10) NOT NULL,
-  `SleepPeriod` VARCHAR(45) NULL,
-  `AverageHours` VARCHAR(45) NULL,
+  stores a unique identifiction number assigned to each sleep record`SleepID` INT NOT NULL,
+ stores the unique id assigned to each student `StudentID` VARCHAR(10) NOT NULL,
+ records the students sleep period  `SleepPeriod` VARCHAR(45) NULL,
+ stores the student avarage number of hours of sleep `AverageHours` VARCHAR(45) NULL,
   PRIMARY KEY (`SleepID`),
   INDEX `fk_SleepLog_Student_idx` (`StudentID` ASC),
   CONSTRAINT `fk_SleepLog_Student`
