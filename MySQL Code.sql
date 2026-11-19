@@ -22,7 +22,7 @@ USE `create_tables.sql` ;
 -- -----------------------------------------------------
 CREATE TABLE IF NOT EXISTS `create_tables.sql`.`Student` (
   The number id` StudentID` VARCHAR(10) NOT NULL,
-  Year of collage `CollegeYear` VARCHAR(20) NULL,
+  Year of college `CollegeYear` VARCHAR(20) NULL,
   The overall wellbeing for a person `WellBeingRating` VARCHAR(20) NULL,
   PRIMARY KEY (`StudentID`))
 ENGINE = InnoDB;
@@ -76,8 +76,8 @@ ENGINE = InnoDB;
 -- -----------------------------------------------------
 CREATE TABLE IF NOT EXISTS `create_tables.sql`.`SelfCareLog` (
 student id number `StudentID` VARCHAR(10) NOT NULL,
-   stors a unique identifcation number assigned each self care activity`SelfCareID` INT NOT NULL,
-  records how frequentky the student partcipates in the self care activity `Frequency` VARCHAR(45) NULL,
+   stores a unique identifcation number assigned each self care activity`SelfCareID` INT NOT NULL,
+  records how frequently the student partcipates in the self care activity `Frequency` VARCHAR(45) NULL,
   PRIMARY KEY (`StudentID`),
   CONSTRAINT `fk_SelfCareLog_Student`
     FOREIGN KEY (`StudentID`)
@@ -96,7 +96,7 @@ ENGINE = InnoDB;
 -- Table `create_tables.sql`.`SleepLog`
 -- -----------------------------------------------------
 CREATE TABLE IF NOT EXISTS `create_tables.sql`.`SleepLog` (
-  stores a unique identifiction number assigned to each sleep record`SleepID` INT NOT NULL,
+  stores a unique identification number assigned to each sleep record`SleepID` INT NOT NULL,
  stores the unique id assigned to each student `StudentID` VARCHAR(10) NOT NULL,
  records the students sleep period  `SleepPeriod` VARCHAR(45) NULL,
  stores the student avarage number of hours of sleep `AverageHours` VARCHAR(45) NULL,
